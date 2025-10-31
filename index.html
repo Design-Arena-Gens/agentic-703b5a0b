@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Beauty Startups Leads</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Indian Beauty Product Startups</h1>
+      <p>Curated list of 50 Instagram-first Indian beauty and personal care brands for outreach.</p>
+    </header>
+    <main>
+      <section id="leads"></section>
+    </main>
+    <template id="lead-row-template">
+      <article class="lead-card">
+        <div class="lead-number"></div>
+        <div class="lead-meta">
+          <h2 class="lead-name"></h2>
+          <p class="lead-category"></p>
+          <a class="lead-link" target="_blank" rel="noopener" href=""></a>
+        </div>
+      </article>
+    </template>
+    <script type="application/json" id="leads-data">
+      [
+        {"name":"Nykaa","instagram":"https://www.instagram.com/nykaabeauty","category":"Omnichannel beauty marketplace"},
+        {"name":"Sugar Cosmetics","instagram":"https://www.instagram.com/trysugar","category":"Bold color cosmetics"},
+        {"name":"Mamaearth","instagram":"https://www.instagram.com/mamaearth.in","category":"Natural skincare & baby care"},
+        {"name":"Plum Goodness","instagram":"https://www.instagram.com/plumgoodness","category":"Vegan skincare"},
+        {"name":"Minimalist","instagram":"https://www.instagram.com/beminimalist","category":"Science-backed skincare"},
+        {"name":"Dot & Key","instagram":"https://www.instagram.com/dotandkey","category":"Dermatologist-trusted skincare"},
+        {"name":"Pilgrim","instagram":"https://www.instagram.com/discoverpilgrim","category":"Global beauty rituals"},
+        {"name":"Juicy Chemistry","instagram":"https://www.instagram.com/juicy_chemistry","category":"Certified organic skincare"},
+        {"name":"WOW Skin Science","instagram":"https://www.instagram.com/wowskinscienceindia","category":"Natural personal care"},
+        {"name":"Earth Rhythm","instagram":"https://www.instagram.com/earth_rhythm","category":"Eco-friendly skincare"},
+        {"name":"MyGlamm","instagram":"https://www.instagram.com/myglamm","category":"Digital-first cosmetics"},
+        {"name":"mCaffeine","instagram":"https://www.instagram.com/mcaffeineofficial","category":"Caffeine-based personal care"},
+        {"name":"The Moms Co.","instagram":"https://www.instagram.com/themomsco","category":"Toxin-free mom & baby care"},
+        {"name":"Kama Ayurveda","instagram":"https://www.instagram.com/kamaayurveda","category":"Luxury ayurvedic beauty"},
+        {"name":"Kapiva","instagram":"https://www.instagram.com/kapiva_official","category":"Ayurvedic nutrition & beauty"},
+        {"name":"Arata","instagram":"https://www.instagram.com/arata.in","category":"Plant-powered grooming"},
+        {"name":"Bella Vita Organic","instagram":"https://www.instagram.com/bellavitaorganic","category":"Natural beauty essentials"},
+        {"name":"The Man Company","instagram":"https://www.instagram.com/themancompany","category":"Men's grooming"},
+        {"name":"Beardo","instagram":"https://www.instagram.com/beardo.official","category":"Men's grooming"},
+        {"name":"Skinkraft","instagram":"https://www.instagram.com/skinkraftofficial","category":"Personalized skincare"},
+        {"name":"Vedix","instagram":"https://www.instagram.com/vedix","category":"Customized ayurvedic care"},
+        {"name":"Ilana Organics","instagram":"https://www.instagram.com/ilanaorganics","category":"Clean beauty"},
+        {"name":"Daughter Earth","instagram":"https://www.instagram.com/daughterearthofficial","category":"Sustainable skincare"},
+        {"name":"Vilvah Store","instagram":"https://www.instagram.com/vilvahstore","category":"Farm-to-face skincare"},
+        {"name":"Bare Anatomy","instagram":"https://www.instagram.com/bareanatomyindia","category":"Personalized haircare"},
+        {"name":"Love Earth","instagram":"https://www.instagram.com/loveearth.in","category":"Affordable clean beauty"},
+        {"name":"The Natural Wash","instagram":"https://www.instagram.com/thenaturalwash","category":"Herbal skincare"},
+        {"name":"Soulflower","instagram":"https://www.instagram.com/soulflower_co","category":"Essential oils & bath"},
+        {"name":"Organic Harvest","instagram":"https://www.instagram.com/organicharvestindia","category":"Organic beauty"},
+        {"name":"Just Herbs","instagram":"https://www.instagram.com/justherbsindia","category":"Ayurvedic beauty"},
+        {"name":"Kay Beauty","instagram":"https://www.instagram.com/kaybykatrinakaif","category":"Celebrity-led cosmetics"},
+        {"name":"Disguise Cosmetics","instagram":"https://www.instagram.com/disguisecosmetics","category":"Cruelty-free makeup"},
+        {"name":"FAE Beauty","instagram":"https://www.instagram.com/faebeauty","category":"Inclusive beauty"},
+        {"name":"Asa Beauty","instagram":"https://www.instagram.com/asabeautyindia","category":"Clean luxury beauty"},
+        {"name":"Sadhev","instagram":"https://www.instagram.com/sadhevskincare","category":"Ayurvedic luxury skincare"},
+        {"name":"ENN Beauty","instagram":"https://www.instagram.com/ennscloset","category":"Farm-fresh skincare"},
+        {"name":"Pahadi Local","instagram":"https://www.instagram.com/pahadilocal","category":"Mountain-sourced beauty"},
+        {"name":"Carmesi","instagram":"https://www.instagram.com/mycarmesi","category":"Clean intimate & skincare"},
+        {"name":"Sirona","instagram":"https://www.instagram.com/sironaindia","category":"Intimate wellness & personal care"},
+        {"name":"Sanfe","instagram":"https://www.instagram.com/sanfe","category":"Feminine hygiene & skincare"},
+        {"name":"Brillare","instagram":"https://www.instagram.com/brillareindia","category":"Clinical hair & skin care"},
+        {"name":"Suganda","instagram":"https://www.instagram.com/suganda.co","category":"Minimalist skincare"},
+        {"name":"The Skin Story","instagram":"https://www.instagram.com/theskinstoryindia","category":"Dermacosmetic skincare"},
+        {"name":"Re'equil","instagram":"https://www.instagram.com/reequil","category":"Dermatology-backed skincare"},
+        {"name":"St.Botanica","instagram":"https://www.instagram.com/stbotanica.in","category":"Botanical beauty"},
+        {"name":"Indus Valley","instagram":"https://www.instagram.com/indusvalleyofficial","category":"Herbal beauty"},
+        {"name":"Alanna","instagram":"https://www.instagram.com/alannanaturallybeautiful","category":"Vegan cocoa-based skincare"},
+        {"name":"The Switch Fix","instagram":"https://www.instagram.com/theswitchfix","category":"Water-conscious beauty"},
+        {"name":"Skinella","instagram":"https://www.instagram.com/skinella","category":"Superfood skincare"},
+        {"name":"Biotique","instagram":"https://www.instagram.com/biotique_world","category":"Ayurvedic beauty"}
+      ]
+    </script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
